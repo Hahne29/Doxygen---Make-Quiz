@@ -7,7 +7,7 @@
 		Lab 7		Fall 2014
 	John Dolan			Ohio University 
 ********************************************************************/
-
+///@file tarray.h
 #include<iostream>
 
 template<class T>

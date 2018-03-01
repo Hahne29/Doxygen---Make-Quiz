@@ -4,19 +4,25 @@
 //CS 2401
 //10/8/2015
 //********************
+///@file college.cc
+///@headerfile college.h
+
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
 #include<iomanip>
 #include<string>
 using namespace std;
-
+/** @fn College(std::string s)
+	constructor
+*/
 College::College(std::string s){
 	name = s;
 	head = NULL;
 }
 
-
+///destructor
 College::~College(){
 	node * rmptr;
 	while(head != NULL){
@@ -25,7 +31,7 @@ College::~College(){
 		delete rmptr;
 	}
 }
-
+///Copy constructor
 College::College(const College& other){
 	if(other.head == NULL){
 		head = NULL;

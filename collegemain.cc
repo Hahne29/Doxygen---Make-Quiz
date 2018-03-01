@@ -11,7 +11,8 @@
     and the .cc file for the container.
 	John Dolan			Spring 2015
 **********************************************************/
-
+/// @file collegemain.cc
+/// @def main() main function
 #include <iostream>
 #include <fstream>
 #include <string>

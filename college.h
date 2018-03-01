@@ -4,7 +4,7 @@
 //CS 2401
 //10/8/2015
 //********************
-
+/// @file college.h
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -15,8 +15,9 @@
 #ifndef COLLEGE_H
 #define COLLEGE_H
 
-
+/// @class College
 class College{
+	/// @public ~College()
 	public:
 	College(std::string s);
 	~College();
